@@ -1,0 +1,46 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Chat Bot</title>
+        <style>
+            body{
+                background-color: rgb(36, 36, 25);
+            }
+            img{
+                width: 200px; 
+                height: 100px;
+                margin-left: 10px;
+            }
+            h2{
+                text-align:center;
+                color: crimson;
+            }
+            h3{
+                text-align:center;
+                color:darkcyan;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Online ticket booking...</h2>
+        <h2><img src="https://ar5.s3.jp-tok.cloud-object-storage.appdomain.cloud/in.jfif"></h2>
+        <p><h3>We are providing the details for your queries</h3>
+              <h3> Click  the chatbot </h3> 
+     </p>
+     <script>
+
+  window.watsonAssistantChatOptions = {
+    integrationID: "3ae18dba-e973-4ea6-9dac-3f32c3ef9104", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "4066b868-9f0c-4440-a76c-e35e0570a56a", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+    
+</script>
+    </body>
+</html>
