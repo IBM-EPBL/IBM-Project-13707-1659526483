@@ -1,0 +1,46 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Chat Boat</title>
+        <style>
+            body{
+                background-color: beige;
+            }
+            img{
+                width: 200px; 
+                height: 100px;
+                margin-left: 10px;
+            }
+            h2{
+                text-align:center;
+                color: crimson;
+            }
+            h3{
+                text-align:center;
+                color:darkcyan;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>online train ticket booking</h2>
+        <h2><img src=https://lo5.s3.jp-tok.cloud-object-storage.appdomain.cloud/online%20train.jfif></h2>
+        <p><h3>We are providing the details for your queries</h3>
+              <h3> Click  the chatboat </h3>    </p>
+     <!--<script>-->
+        <script>
+            window.watsonAssistantChatOptions = {
+              integrationID: "69217866-9ecb-4c30-bfaa-d2f4471807cd", // The ID of this integration.
+              region: "au-syd", // The region your integration is hosted in.
+              serviceInstanceID: "d442ba32-f5c5-434a-bed9-ac00d8f817c3", // The ID of your service instance.
+              onLoad: function(instance) { instance.render(); }
+            };
+            setTimeout(function(){
+              const t=document.createElement('script');
+              t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+              document.head.appendChild(t);
+            });
+          </script>ss
+  
+
+    </body>
+</html>

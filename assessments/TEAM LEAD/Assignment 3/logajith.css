@@ -1,0 +1,29 @@
+body{
+    background-color:rgba(80, 196, 249, 0.795);
+}
+#pic{
+    margin-top: 10%;
+    margin: 5%;
+    line-height:0;
+    column-count:5;
+    column-gap:5px;
+    background-image:linear-gradient( rgb(63, 202, 63) , rgb(8, 97, 8));
+}
+#pic img{
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom:5px;
+}
+h1{
+    text-align: center;
+    font-family:  sans-serif;
+    font-size: 50px;
+    margin-top: 3%;
+    font-weight: bolder;
+    color: rgb(209, 46, 17);
+}
+h2{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(246, 131, 9);
+}
