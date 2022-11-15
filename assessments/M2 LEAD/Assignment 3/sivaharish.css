@@ -1,0 +1,29 @@
+body{
+    background-color:rgba(249, 164, 80, 0.953);
+}
+#pic{
+    margin-top: 10%;
+    margin: 5%;
+    line-height:0;
+    column-count:5;
+    column-gap:5px;
+    background-image:linear-gradient( rgba(63, 170, 202, 0.636) , rgba(8, 70, 97, 0.159));
+}
+#pic img{
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom:5px;
+}
+h1{
+    text-align: center;
+    font-family:  sans-serif;
+    font-size: 50px;
+    margin-top: 3%;
+    font-weight: bolder;
+    color: rgb(244, 17, 9);
+}
+h2{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgba(8, 182, 182, 0.875);
+}
